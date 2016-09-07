@@ -9,7 +9,7 @@ Read more about the [Rollover Pattern](https://www.elastic.co/guide/en/elasticse
 rollover.php <rolloverConditions> [rolloverIndex] [host] [port]
 ```
 Parameters:
-1) rolloverConditions - Required. JSON string with rollover API condition. Example :
+1. rolloverConditions - Required. JSON string with rollover API condition. Example :
     ```
     {
       "conditions": {
@@ -18,9 +18,9 @@ Parameters:
       }
     }
     ```
-2) rolloverIndex - Optional, default value `active-logs`. Active index alias.
-3) host - Optional, default value `localhost`. ES host.
-4) port - Optional, default value `9200`. ES port.
+2. rolloverIndex - Optional, default value `active-logs`. Active index alias.
+3. host - Optional, default value `localhost`. ES host.
+4. port - Optional, default value `9200`. ES port.
 
 Usage
 -----
