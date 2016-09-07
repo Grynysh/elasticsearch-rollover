@@ -9,6 +9,7 @@ Read more about the [Rollover Pattern](https://www.elastic.co/guide/en/elasticse
 rollover.php <rolloverConditions> [rolloverIndex] [host] [port]
 ```
 Parameters:
+
 1. rolloverConditions - Required. JSON string with rollover API condition. Example :
     ```
     {
